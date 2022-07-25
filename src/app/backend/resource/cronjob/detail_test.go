@@ -22,9 +22,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"github.com/kubernetes/dashboard/src/app/backend/api"
-	"github.com/kubernetes/dashboard/src/app/backend/resource/cronjob"
-	"github.com/kubernetes/dashboard/src/app/backend/resource/dataselect"
+	"github.com/shantanubansal/dashboard/src/app/backend/api"
+	"github.com/shantanubansal/dashboard/src/app/backend/resource/cronjob"
+	"github.com/shantanubansal/dashboard/src/app/backend/resource/dataselect"
 )
 
 func TestGetCronJobDetail(t *testing.T) {

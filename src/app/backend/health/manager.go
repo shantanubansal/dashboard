@@ -15,8 +15,8 @@
 package health
 
 import (
-	client "github.com/kubernetes/dashboard/src/app/backend/client/api"
-	health "github.com/kubernetes/dashboard/src/app/backend/health/api"
+	client "github.com/shantanubansal/dashboard/src/app/backend/client/api"
+	health "github.com/shantanubansal/dashboard/src/app/backend/health/api"
 )
 
 // HealthManager is a structure containing all system banner manager members.
